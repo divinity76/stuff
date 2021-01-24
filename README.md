@@ -1,7 +1,7 @@
 # stuff
 boring stuff
 ```
-mkdir ~/.ssh;
+mkdir -p ~/.ssh;
 chmod 0700 .ssh;
 touch ~/.ssh/authorized_keys;
 chmod 0600 authorized_keys;
