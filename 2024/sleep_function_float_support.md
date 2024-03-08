@@ -70,30 +70,35 @@ There are no open issues related to this RFC.
 
 ===== Proposed Voting Choices =====
 
-The voting will be organized into three main questions. Each question aims to gather community consensus on whether to implement the proposed enhancements and, if so, in which version of PHP these changes should be applied.
+### 1. Enhancement of Precision: Float Arguments for Sub-Second Precision
 
+**Should we extend `sleep()` to accept floats for sub-second delays?**
+- Yes
+- No
 
-**1. Float Arguments for Sub-Second Precision**
+**Which PHP version should implement this feature if accepted?**
+- 8.4
+- 9.0
 
-**Extend `sleep()` to accept floats for sub-second delays?**
-  - No
-  - PHP 8.4
-  - PHP 9.0
+### 2. Normalized Return Values on Windows
 
-**2. Normalized Return Values on Windows**
+**Should we modify `sleep()` on Windows for consistent return values?**
+- Yes
+- No
 
-**Modify `sleep()` on Windows for consistent return values?**
-  - No
-  - PHP 8.4
-  - PHP 9.0
+**Which PHP version should implement this feature if accepted?**
+- 8.4
+- 9.0
 
-**3. Enhanced Return Value Precision**
+### 3. Enhanced Return Value Precision
 
-**Increase `sleep()` return value precision to include fractions of a second?**
-  - No
-  - PHP 8.4
-  - PHP 9.0
+**Should we increase `sleep()` return value precision to include fractions of a second?**
+- Yes
+- No
 
+**Which PHP version should implement this feature if accepted?**
+- 8.4
+- 9.0
 
 
 ===== Patches and Tests =====
